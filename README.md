@@ -1,4 +1,4 @@
-# 📊 AI-Powered Data Cleaning & Visualization Tool
+📊 AI-Powered Data Cleaning & Visualization Tool
 
 An AI-enhanced Streamlit web app for:
 - Data cleaning (missing value handling, column dropping)
@@ -7,14 +7,15 @@ An AI-enhanced Streamlit web app for:
 - PDF report generation
 - Dataset upload history tracking
 
-## 🚀 Live Demo
+🚀 Live Demo
 [Click here to use the app]((https://ai-data-cleaning-app-jrw2m5uchjtudjb9pzi2kb.streamlit.app/))
 
-## 📦 How to Run Locally
-```bash
+ 📦 How to Run Locally
+
 pip install -r requirements.txt
 streamlit run app.py
-## 📝 Features
+
+📝 Features
 
 - 📥 **Upload and clean CSV datasets**
 - 🗑️ **Auto-suggest columns to drop** based on uniqueness or null percentage
@@ -31,7 +32,7 @@ streamlit run app.py
 
 ---
 
-## 🔗 Tech Stack
+🔗 Tech Stack
 
 - 🐍 **Python**
 - 🚀 **Streamlit**
