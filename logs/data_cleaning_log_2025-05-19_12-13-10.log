@@ -1,0 +1,5 @@
+Data Cleaning Log (2025-05-19_12-13-10)
+Original Dataset Shape: (100, 5)
+Cleaned Dataset Shape: (100, 3)
+Columns Dropped: ['House_ID', 'House_Price ($)']
+Missing Value Actions: {}

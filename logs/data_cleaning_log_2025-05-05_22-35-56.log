@@ -1,0 +1,5 @@
+Data Cleaning Log (2025-05-05_22-35-56)
+Original Dataset Shape: (100, 51)
+Cleaned Dataset Shape: (100, 21)
+Columns Dropped: ['Feature_16', 'Feature_17', 'Feature_18', 'Feature_19', 'Feature_20', 'Feature_21', 'Feature_22', 'Feature_23', 'Feature_24', 'Feature_25', 'Feature_26', 'Feature_27', 'Feature_28', 'Feature_29', 'Feature_30', 'Feature_31', 'Feature_32', 'Feature_33', 'Feature_34', 'Feature_35', 'Feature_36', 'Feature_37', 'Feature_38', 'Feature_39', 'Feature_40', 'Feature_41', 'Feature_43', 'Feature_44', 'Feature_45', 'Feature_46']
+Missing Value Actions: {}

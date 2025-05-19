@@ -1,0 +1,5 @@
+Data Cleaning Log (2025-05-19_17-19-13)
+Original Dataset Shape: (500, 9)
+Cleaned Dataset Shape: (500, 9)
+Columns Dropped: []
+Missing Value Actions: {}

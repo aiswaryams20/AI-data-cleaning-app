@@ -1,0 +1,5 @@
+Data Cleaning Log (2025-05-19_16-21-47)
+Original Dataset Shape: (199, 16)
+Cleaned Dataset Shape: (199, 12)
+Columns Dropped: ['S.No', 'University Reg. No.', 'Graduation Degree', 'UG SPECIALIZATION']
+Missing Value Actions: {'No of History of Arrears ': 'Filled with median (2.0)', '\nXII % Eg. 65.00 ': 'Filled with mode (89.00)', 'Diploma % Eg. 65.00(if Not applicable mention NA)': 'Filled with mode (85.00)'}

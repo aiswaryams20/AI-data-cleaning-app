@@ -1,0 +1,5 @@
+Data Cleaning Log (2025-05-19_00-43-17)
+Original Dataset Shape: (891, 12)
+Cleaned Dataset Shape: (891, 10)
+Columns Dropped: ['PassengerId', 'Name']
+Missing Value Actions: {'Age': 'Filled with median (28.0)', 'Cabin': 'Filled with mode (B96 B98)', 'Embarked': 'Filled with mode (S)'}
