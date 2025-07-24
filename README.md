@@ -8,7 +8,7 @@ An AI-enhanced Streamlit web app for:
 - Dataset upload history tracking
 
 🚀 Live Demo
-((https://ai-data-cleaning-app-jrw2m5uchjtudjb9pzi2kb.streamlit.app/))
+[(https://ai-data-cleaning-app-jrw2m5uchjtudjb9pzi2kb.streamlit.app/)]
 
  📦 How to Run Locally
 
