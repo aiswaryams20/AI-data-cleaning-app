@@ -1,12 +1,8 @@
-import os
+import streamlit as st
 from huggingface_hub import InferenceClient
-from dotenv import load_dotenv
-
-load_dotenv()  # Load .env file
 
 def sentiment_analysis(text):
-    api_key = os.getenv("HF_API_KEY")  # Safely load from environment variable
-    print("API KEY:", api_key)  # Temporarily for debugging
+    api_key = st.secrets["HF_API_KEY"]  # 🔐 Load from Streamlit secrets
 
     client = InferenceClient(api_key=api_key)
 
