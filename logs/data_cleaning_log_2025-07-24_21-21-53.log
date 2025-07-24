@@ -1,0 +1,5 @@
+Data Cleaning Log (2025-07-24_21-21-53)
+Original Dataset Shape: (768, 9)
+Cleaned Dataset Shape: (768, 8)
+Columns Dropped: ['BMI']
+Missing Value Actions: {}
