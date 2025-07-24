@@ -1,7 +1,14 @@
+import os
 from huggingface_hub import InferenceClient
+from dotenv import load_dotenv
+
+load_dotenv()  # Load .env file
 
 def sentiment_analysis(text):
-    client = InferenceClient(api_key="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")
+    api_key = os.getenv("HF_API_KEY")  # Safely load from environment variable
+    print("API KEY:", api_key)  # Temporarily for debugging
+
+    client = InferenceClient(api_key=api_key)
 
     try:
         result = client.text_classification(
@@ -10,7 +17,6 @@ def sentiment_analysis(text):
         )
 
         if isinstance(result, list) and len(result) > 0:
-            # Sort by score descending just in case it's not sorted
             sorted_result = sorted(result, key=lambda x: x["score"], reverse=True)
             top_result = sorted_result[0]
             return {
