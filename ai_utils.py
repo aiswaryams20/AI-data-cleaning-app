@@ -1,10 +1,7 @@
-import streamlit as st
 from huggingface_hub import InferenceClient
 
 def sentiment_analysis(text):
-    api_key = st.secrets["HF_API_KEY"]  # 🔐 Load from Streamlit secrets
-
-    client = InferenceClient(api_key=api_key)
+    client = InferenceClient(api_key="")
 
     try:
         result = client.text_classification(
@@ -13,6 +10,7 @@ def sentiment_analysis(text):
         )
 
         if isinstance(result, list) and len(result) > 0:
+            # Sort by score descending just in case it's not sorted
             sorted_result = sorted(result, key=lambda x: x["score"], reverse=True)
             top_result = sorted_result[0]
             return {
